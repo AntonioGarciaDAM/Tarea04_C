@@ -8,7 +8,7 @@ public class Tarea04_C
 
     public Tarea04_C() {
         JLabel lblSaludo = new JLabel("Hola Mundo.");
-        JLabel lblSaludo2 = new JLabel("¿Hola que tal que pasa?.");
+        JLabel lblSaludo2 = new JLabel("Procedo a modificar este saludo.");
         add(lblSaludo);
         lblSaludo.setBounds(2, 28, 116, 24);
         add(lblSaludo2);
