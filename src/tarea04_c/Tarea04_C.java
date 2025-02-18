@@ -7,8 +7,9 @@ public class Tarea04_C
         extends JFrame {
 
     public Tarea04_C() {
+        System.out.println("Me gusta la pizza con lentejas");
         JLabel lblSaludo = new JLabel("Hola Mundo.");
-        JLabel lblSaludo2 = new JLabel("¿Hola que tal que pasa?.");
+        JLabel lblSaludo2 = new JLabel("Procedo a modificar este saludo.");
         add(lblSaludo);
         lblSaludo.setBounds(2, 28, 116, 24);
         add(lblSaludo2);
@@ -17,6 +18,7 @@ public class Tarea04_C
         this.setTitle("JFrame");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
+       
     }
 
     public static void main(String[] args) {
